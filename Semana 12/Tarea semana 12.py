@@ -28,8 +28,8 @@ def calcular_promedio_temperaturas(matriz, cuidades):
             print(f" semana {semana + 1}: promedio temperatura  =  {promedio:.2f}ºC")
         print("") # linea en blanco para separar las cuidades
 
-        # nombres de las cuidades
-        cuidades = ["Quito","Manabi", "Cuenca"]
+# nombres de las cuidades
+cuidades = ["Quito","Manabi", "Cuenca"]
 
-        # Llamar a la función para calcular los promedios
-        calcular_promedio_temperaturas(temperaturas, cuidades)
+# Llamar a la función para calcular los promedios
+calcular_promedio_temperaturas(temperaturas, cuidades)
